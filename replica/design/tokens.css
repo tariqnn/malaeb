@@ -1,0 +1,29 @@
+:root {
+  --canvas: #f7f8f6;
+  --surface: #fff;
+  --ink: #17231f;
+  --muted: #66736b;
+  --border: #e7ece8;
+  --accent: #236c4e;
+  --accent-dark: #194b38;
+  --on-accent: #fff;
+  --accent-soft: #eaf4ed;
+  --lime: #d7ee7b;
+  --success: #347c56;
+  --warning: #ad742c;
+  --danger: #bd5a53;
+  --info: #5777a4;
+  --font-body: 'DM Sans', sans-serif;
+  --font-display: 'Manrope', sans-serif;
+  --font-arabic: 'Noto Sans Arabic', sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --radius-sm: 6px;
+  --radius-md: 9px;
+  --radius-lg: 15px;
+  --shadow-panel: 0 10px 30px rgb(18 37 27 / 5.5%);
+}

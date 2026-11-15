@@ -1,0 +1,23 @@
+feature,area,priority,original,clone,notes
+Organization workspace and multiple seasons,admin,must,TeamSnap ONE and SportsEngine HQ,partial,Prototype has one fictional club and one season; production requires multi-tenancy.
+Bilingual English and Arabic with RTL,localization,must,Jordan product requirement,partial,Toggle exists; needs native-speaker review and full content QA.
+Athlete and guardian profiles,people,must,TeamSnap and SportsEngine HQ,partial,SQLite roster, live search, add-athlete form and local detail sheet; no role-based guardian accounts or edit/archive workflow.
+Registration forms and review,registration,must,Both,partial,Local family intake, consent record, status filters and approve/waitlist/decline; no public internet endpoint or guardian account.
+Programs and age groups,programs,must,Both,partial,Displayed in dashboard; admin CRUD remains.
+Teams, rosters and coach assignments,teams,must,Both,partial,SQLite team creation, local roster assignment and team detail; coach accounts and permission rules remain.
+Shared practice and match calendar,scheduling,must,TeamSnap schedules; SportsEngine season setup,partial,Calendar UI and add flow; no sync/conflict engine.
+Attendance per session,coaching,must,Team operations,partial,Mock controls; persistence and parent sharing remain.
+JOD fee ledger and family balances,finance,must,TeamSnap registration/payments; SportsEngine financial tools,partial,Ledger concept only; no real payments or reconciliation.
+Local payment method recording,finance,must,Jordan localization,partial,Cash and CliQ manual ledger options; no provider integration.
+Receipts, refunds and reconciliation,finance,must,Financial operations,no,Needs auditable ledger and finance review.
+Role-based administrator,coach and guardian views,security,must,Both,no,Must be implemented server-side before real data.
+Family and team communications,communication,must,TeamSnap messaging,partial,Local prototype thread; no external delivery or consent handling.
+Consent and notification preferences,privacy,must,Child/family safety,no,Guardian consent and contact channel preferences required before sending.
+Audit history and exports,admin,must,Admin workflows,partial,CSV affordance only; audit records remain.
+Public club profile and registration landing,website,should,SportsEngine HQ websites,partial,Profile screen concept; no public-rendered club site.
+Facility booking and conflict checks,facilities,should,Club operations extension,partial,Request form only; no availability engine.
+Tournament and league management,competition,should,SportsEngine HQ organization use,no,Separate competition model and schedule builder.
+TeamSnap-branded streaming/video and partner network,media,could,TeamSnap partnerships,skip,Requires separate rights, hardware and distribution deals.
+Coach practice plans and drill library,coaching,could,TeamSnap practice plans,skip,Could use original/licensed content later.
+Real-time alerts and calendar sync,integrations,should,Team/family apps,no,Provider choice and opt-in rules need validation.
+Mobile native family/coach app,platform,should,TeamSnap app,no,Responsive web is first slice; native app is later milestone.

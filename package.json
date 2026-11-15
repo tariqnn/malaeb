@@ -1,0 +1,19 @@
+{
+  "name": "malaeb",
+  "version": "1.0.0",
+  "description": "A local, bilingual sports-club operations app for Jordan. The admin workspace and family application form run against a persistent SQLite database on this computer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.1"
+  }
+}
